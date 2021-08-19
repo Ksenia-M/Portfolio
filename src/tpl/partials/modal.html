@@ -1,0 +1,46 @@
+
+  <!-- Modal -->
+  <div class="modal fade" id="request-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+
+        <button class="modal__close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="modal__close-icon"> 
+                <use xlink:href="#close"></use>
+            </svg>
+        </button>
+
+        <div class="modal__title">Оставить заявку</div>
+        <div class="modal__text">Заполнить форму ниже и я свяжусь с Вами в ближайшее время!</div>
+
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <input class="input" type="text" placeholder="Ваше имя">
+             </div>
+           <div class="form__group">
+                <input class="input" type="email" placeholder="Ваш email">
+           </div>
+            <div class="form__group">
+                <input class="input" type="tel" placeholder="Ваш телефон">
+           </div>
+           <div class="row">
+             <div class="col-lg-6">
+                <button class="btn btn--pink" type="submit">Оставить заявку</button>
+             </div>
+             <div class="col-lg-6">
+                <ul class="contacts contacts--modal">
+                  <li class="contacts__item">
+                      <a class="contact_link" href="tel:+799267464">+7-992-674-64</a>
+                  </li>
+                  <li class="contacts__item">
+                      <a class="contact_link" href="mailto:jlhfashf@mail.ru">jlhfashf@mail.ru</a>
+                  </li>
+                </ul>
+             </div>
+           </div><!-- /.row -->
+           
+        </form>
+
+       </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
